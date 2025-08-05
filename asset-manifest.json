@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/social-links-profile-main/static/css/main.6167dc90.css",
+    "main.js": "/social-links-profile-main/static/js/main.1ad9f423.js",
+    "index.html": "/social-links-profile-main/index.html",
+    "main.6167dc90.css.map": "/social-links-profile-main/static/css/main.6167dc90.css.map",
+    "main.1ad9f423.js.map": "/social-links-profile-main/static/js/main.1ad9f423.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6167dc90.css",
+    "static/js/main.1ad9f423.js"
+  ]
+}
