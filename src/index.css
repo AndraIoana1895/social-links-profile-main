@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+:root{
+    --green:hsl(75, 94%, 57%);
+    --white:hsl(0, 0%, 100%);
+    --grey700: hsl(0, 0%, 20%);
+    --grey800:hsl(0, 0%, 12%);
+    --grey900:hsl(0, 0%, 8%);
+    --font-size:14px;
+    --weight400:400;
+    --weight600:600;
+    --weight700:700;
+    --inter: "Inter", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    margin:0;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey900);
+}
+
+.card{
+    width:360px;
+    height:620px;
+    background-color: var(--grey800);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2rem;
+}
+
+img{
+    border-radius: 50%;
+    width:100px;
+}
+
+.author-details{
+    display:flex;
+    align-items: center;
+    width:100%;
+    flex-direction: column;
+    margin:1rem 0;
+    gap:10px;
+}
+
+h1{
+    color:var(--white);
+    font-family: var(--inter);
+    font-weight: var(--weight400);
+    font-size:2rem;
+    margin:0;
+    font-size:26px;
+}
+
+.author-details p{
+    margin:0;
+    color:var(--green);
+    font-family: var(--inter);
+    font-weight: var(--weight600);
+    font-size:14px;
+}
+.author-passions{
+    color:var(--white);
+    font-family: var(--inter);
+    font-weight: 200;
+    font-size:14px;
+}
+.buttons{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:1rem;
+    margin-top:1rem;
 }

@@ -1,0 +1,13 @@
+.btn{
+    background-color: var(--grey700);
+    color:var(--white);
+    font-family:var(--inter);
+    font-weight:var(--weight700);
+    font-size:14px;
+    padding:1rem;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
